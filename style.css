@@ -109,7 +109,8 @@ body {
   width: 350px;
   margin:5px;
   border-radius: 3px;
-  box-shadow: 0 0 5px #2f4a4c;
+  background-color: #365659;
+  box-shadow: 0 0 7px #314c4f;
   text-align: center;
   padding: 10px;
 }
