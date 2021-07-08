@@ -27,7 +27,7 @@ body {
 }
 
 .description h1 {
-    font-size: 32px;
+    font-size: 80px;
     font-weight: lighter;
     color: #EE6352;
     text-align: left;
@@ -38,7 +38,7 @@ body {
   }
 
 .description  h2 {
-    font-size: 35px;
+    font-size: 70px;
     font-weight: bold;
     color: #EE6352;
     text-align: left;
@@ -49,7 +49,7 @@ body {
 
 .description h3 {
     font-size: 25px;
-    color: #e5e5e5;
+    color: #273C3E;
   }
 
   h4 {
@@ -69,21 +69,28 @@ body {
     width: 400px;
     margin: 10px auto;
   }
+.justine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+}
 
-.description img {
-  height: 200px;
-  width: 190px;
+.description .profile {
+  height: 350px;
+  width: 250px;
   object-fit: cover;
-  object-position: top;
-  border-radius: 50%;
+
+  -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
   margin: 10px;
+  position: relative;
   }
 
 
 .cards {
   display: flex;
   margin: 30px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .cards h2 {
