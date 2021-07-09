@@ -41,7 +41,7 @@ body {
   text-align: left;
   font-family: 'Raleway', sans-serif;
   line-height: 0.3;
-  margin-left: 25px;
+  /*margin-right: 50px;*/
   margin-top: 50px;
 }
 
@@ -52,7 +52,7 @@ body {
   text-align: left;
   font-family: 'Raleway', sans-serif;
   line-height: 0.3;
-  margin-left: 25px;
+  /*margin-right: 50px;*/
 }
 
 .description h3 {
@@ -89,6 +89,9 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 10px 50px;
+  align-content: center;
+  flex-direction: row;
+  width: 60vw;
 }
 
 .description .profile {
