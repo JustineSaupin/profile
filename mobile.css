@@ -2,184 +2,59 @@
 @media (max-width: 425px) {
   /* For a screen < 425px, this CSS will be read */
 
-
-.wraper {
-  font-family: 'Raleway', sans-serif;
-  color: blue;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.description{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.description h1 {
-  font-size: 80px;
-  font-weight: lighter;
-  color: #EE6352;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  line-height: 0.3;
-  /*margin-right: 50px;*/
-  margin-top: 50px;
-}
-
-.description  h2 {
-  font-size: 70px;
-  font-weight: bold;
-  color: #EE6352;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  line-height: 0.3;
-  /*margin-right: 50px;*/
-}
-
-.description h3 {
-  font-size: 25px;
-  color: #273C3E;
-}
-
-h4 {
-  font-size: 20px;
-  color: #EE6352;
-}
-
-.description  h3, h4 {
-  font-family: 'Raleway', sans-serif;
-  line-height: 2;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-.resume {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  text-align: justify;
-  width: 60vw;
-  height: 33vh;
-  margin: 8px;
-}
-
 .justine {
   display: flex;
   align-items: center;
   margin: 10px 50px;
   align-content: center;
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
-.description .profile {
-  height: 350px;
-  width: 250px;
-  object-fit: cover;
-  -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-  margin: 10px;
+.resume {
+  text-align: right !important;
+  width: 90vw !important;
+  margin-bottom: 8px !important;
 }
+
+.resume p {
+  text-align: justify !important;
+  width: 90vw !important;
+  margin-bottom: 32px !important;
+}
+
+
 
 
 .cards {
-  display: flex;
-  margin: 30px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
 }
-
-.cards h2 {
-  font-size: 35px;
-  font-weight: bold;
-  color: #EE6352;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  line-height: 0.3;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  }
 
 .cards img {
   display: none;
 }
 
 .card {
-  display: flex;
-  width: 60vw;
-  height: 33vh;
-  margin: 8px;
-  border-radius: 3px;
-  background-color: #365659;
-  box-shadow: 0 0 7px #314c4f;
-  text-align: center;
-  padding: 10px 80px;
-  align-content: center;
-  justify-content: space-between;;
-  align-items: center;
+  width: 90vw !important;
+  height:  auto !important;
+  padding: 0 !important;
 }
 
-.zoom {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  -o-transition: transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s; /* Animation */
-}
-.zoom:hover {
-  -webkit-transform: scale(1.01);
-      -ms-transform: scale(1.01);
-          transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  box-shadow: 0 0 7px #203335;
+.card h4 {
+  text-align: right !important;;
 }
 
 .card-desc2 {
-  text-align: start;
-  padding-right: 16px;
+  text-align: justify !important;
+  padding: 8px !important;
 }
 .card-desc {
-  text-align: end;
-  padding-left: 16px;
+  text-align: justify !important;
+  padding: 8px !important;
 }
 
 .reseau {
   margin-top: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: #EE6352;
-}
-
-a:hover {
-    color: #BF1A2F;
-}
-
-button {
-  background-color: #3d5d60;
-  color: #eaac8b;
-  width: 100px;
-  height: 40px;
-  border-radius: 25%;
-  margin-top: 40px;
-}
-
-button:hover {
-  background-color: #EE6352;
-  color: #eaac8b;
-}
-
-li {
-  list-style-type: none;
-}
-
-ul {
-  padding-inline-start: 0;
-}
-
-}
