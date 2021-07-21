@@ -115,7 +115,7 @@ body {
 
 .card {
   display: flex;
-  width: 80vw;
+  width: 60vw;
   height: 33vh;
   margin: 8px;
   border-radius: 3px;
