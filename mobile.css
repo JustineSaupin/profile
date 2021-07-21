@@ -1,6 +1,6 @@
 
-@media (max-width: 425px) {
-  /* For a screen < 425px, this CSS will be read */
+@media (max-width: 525px) {
+  /* For a screen < 525px, this CSS will be read */
 
 .justine {
   display: flex;
