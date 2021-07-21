@@ -1,11 +1,11 @@
 
-@media (max-width: 425px) {
-  /* For a screen < 425px, this CSS will be read */
-
+body {
+  background-color: #3d5d60;
+}
 
 .wraper {
   font-family: 'Raleway', sans-serif;
-  color: blue;
+  color: #e5e5e5;
   text-align: center;
   line-height: 1.4;
 }
@@ -44,7 +44,7 @@
   color: #273C3E;
 }
 
-h4 {
+  h4 {
   font-size: 20px;
   color: #EE6352;
 }
@@ -70,10 +70,12 @@ h4 {
 
 .justine {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 10px 50px;
   align-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  width: 60vw;
 }
 
 .description .profile {
@@ -106,7 +108,9 @@ h4 {
   }
 
 .cards img {
-  display: none;
+  height: inherit;
+  width: 200px;
+  border-radius: 2px;
 }
 
 .card {
@@ -182,4 +186,4 @@ ul {
   padding-inline-start: 0;
 }
 
-}
+
